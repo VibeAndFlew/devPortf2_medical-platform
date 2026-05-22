@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#ffffff" rx="8"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="200" height="500" fill="#f8fafc" rx="0"/>
+  <rect x="0" y="0" width="200" height="500" fill="url(#sidebarGrad)" rx="0" opacity="0.5"/>
+  <rect x="16" y="20" width="168" height="36" fill="#2563eb" rx="8" opacity="0.1"/>
+  <text x="32" y="44" font-family="system-ui" font-size="14" font-weight="700" fill="#2563eb" letter-spacing="-0.3">MEDICA</text>
+  <!-- Sidebar items -->
+  <rect x="16" y="76" width="168" height="36" fill="#2563eb" rx="8" opacity="0.12"/>
+  <circle cx="36" cy="95" r="4" fill="#2563eb" opacity="0.8"/>
+  <text x="48" y="99" font-family="system-ui" font-size="13" font-weight="600" fill="#2563eb">Dashboard</text>
+  <rect x="16" y="120" width="168" height="36" fill="transparent" rx="8"/>
+  <circle cx="36" cy="139" r="4" fill="#94a3b8"/>
+  <text x="48" y="143" font-family="system-ui" font-size="13" font-weight="400" fill="#64748b">Patients</text>
+  <rect x="16" y="164" width="168" height="36" fill="transparent" rx="8"/>
+  <circle cx="36" cy="183" r="4" fill="#94a3b8"/>
+  <text x="48" y="187" font-family="system-ui" font-size="13" font-weight="400" fill="#64748b">Appointments</text>
+  <rect x="16" y="208" width="168" height="36" fill="transparent" rx="8"/>
+  <circle cx="36" cy="227" r="4" fill="#94a3b8"/>
+  <text x="48" y="231" font-family="system-ui" font-size="13" font-weight="400" fill="#64748b">Telemedicine</text>
+  <rect x="16" y="252" width="168" height="36" fill="transparent" rx="8"/>
+  <circle cx="36" cy="271" r="4" fill="#94a3b8"/>
+  <text x="48" y="275" font-family="system-ui" font-size="13" font-weight="400" fill="#64748b">Records</text>
+  <rect x="16" y="296" width="168" height="36" fill="transparent" rx="8"/>
+  <circle cx="36" cy="315" r="4" fill="#94a3b8"/>
+  <text x="48" y="319" font-family="system-ui" font-size="13" font-weight="400" fill="#64748b">Prescriptions</text>
+  <rect x="16" y="340" width="168" height="36" fill="transparent" rx="8"/>
+  <circle cx="36" cy="359" r="4" fill="#94a3b8"/>
+  <text x="48" y="363" font-family="system-ui" font-size="13" font-weight="400" fill="#64748b">Messages</text>
+  <!-- User card at bottom -->
+  <rect x="16" y="420" width="168" height="56" fill="#e2e8f0" rx="8" opacity="0.5"/>
+  <circle cx="40" cy="448" r="12" fill="#2563eb" opacity="0.2"/>
+  <text x="60" y="445" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">Dr. Sarah Chen</text>
+  <text x="60" y="462" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">Cardiology</text>
+  <!-- Main content -->
+  <rect x="216" y="16" width="568" height="36" fill="#f8fafc" rx="8"/>
+  <text x="230" y="39" font-family="system-ui" font-size="14" font-weight="600" fill="#1e293b">Clinical Dashboard</text>
+  <circle cx="760" cy="34" r="4" fill="#22c55e"/>
+  <text x="736" y="38" font-family="system-ui" font-size="10" font-weight="500" fill="#64748b">Live</text>
+  <!-- Stats row -->
+  <rect x="216" y="64" width="132" height="80" fill="#f8fafc" rx="10" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="230" y="88" font-family="system-ui" font-size="11" font-weight="400" fill="#64748b">Total Patients</text>
+  <text x="230" y="116" font-family="system-ui" font-size="24" font-weight="700" fill="#1e293b">2,847</text>
+  <rect x="216" y="64" width="132" height="3" fill="#2563eb" rx="2" opacity="0.8"/>
+
+  <rect x="360" y="64" width="132" height="80" fill="#f8fafc" rx="10" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="374" y="88" font-family="system-ui" font-size="11" font-weight="400" fill="#64748b">Today's Appts</text>
+  <text x="374" y="116" font-family="system-ui" font-size="24" font-weight="700" fill="#1e293b">18</text>
+  <rect x="374" y="120" width="8" height="12" fill="#22c55e" rx="2"/>
+  <text x="386" y="132" font-family="system-ui" font-size="10" font-weight="400" fill="#22c55e">3 scheduled</text>
+  <rect x="360" y="64" width="132" height="3" fill="#22c55e" rx="2" opacity="0.8"/>
+
+  <rect x="504" y="64" width="132" height="80" fill="#f8fafc" rx="10" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="518" y="88" font-family="system-ui" font-size="11" font-weight="400" fill="#64748b">Telemedicine</text>
+  <text x="518" y="116" font-family="system-ui" font-size="24" font-weight="700" fill="#1e293b">6</text>
+  <rect x="518" y="120" width="8" height="12" fill="#f59e0b" rx="2"/>
+  <text x="530" y="132" font-family="system-ui" font-size="10" font-weight="400" fill="#f59e0b">2 in progress</text>
+  <rect x="504" y="64" width="132" height="3" fill="#f59e0b" rx="2" opacity="0.8"/>
+
+  <rect x="648" y="64" width="132" height="80" fill="#f8fafc" rx="10" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="662" y="88" font-family="system-ui" font-size="11" font-weight="400" fill="#64748b">Messages</text>
+  <text x="662" y="116" font-family="system-ui" font-size="24" font-weight="700" fill="#1e293b">12</text>
+  <rect x="662" y="120" width="8" height="12" fill="#2563eb" rx="2"/>
+  <text x="674" y="132" font-family="system-ui" font-size="10" font-weight="400" fill="#2563eb">5 unread</text>
+  <rect x="648" y="64" width="132" height="3" fill="#2563eb" rx="2" opacity="0.8"/>
+
+  <!-- Upcoming appointments -->
+  <rect x="216" y="160" width="364" height="200" fill="#f8fafc" rx="10" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="232" y="184" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">Today's Schedule</text>
+  <text x="520" y="184" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">View all →</text>
+  <!-- Appointment rows -->
+  <rect x="232" y="196" width="332" height="1" fill="#e2e8f0"/>
+  <text x="232" y="220" font-family="system-ui" font-size="11" font-weight="500" fill="#2563eb">09:00</text>
+  <text x="286" y="220" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Emily Rodriguez</text>
+  <rect x="460" y="210" width="60" height="18" fill="#dbeafe" rx="20"/>
+  <text x="470" y="223" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Check-up</text>
+  <rect x="232" y="230" width="332" height="1" fill="#e2e8f0"/>
+  <text x="232" y="254" font-family="system-ui" font-size="11" font-weight="500" fill="#2563eb">09:30</text>
+  <text x="286" y="254" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">James Mitchell</text>
+  <rect x="460" y="244" width="60" height="18" fill="#fef3c7" rx="20"/>
+  <text x="468" y="257" font-family="system-ui" font-size="9" font-weight="500" fill="#f59e0b">Telemed</text>
+  <rect x="232" y="264" width="332" height="1" fill="#e2e8f0"/>
+  <text x="232" y="288" font-family="system-ui" font-size="11" font-weight="500" fill="#2563eb">10:00</text>
+  <text x="286" y="288" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Maria Gonzalez</text>
+  <rect x="460" y="278" width="60" height="18" fill="#dbeafe" rx="20"/>
+  <text x="468" y="291" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Follow-up</text>
+  <rect x="232" y="298" width="332" height="1" fill="#e2e8f0"/>
+  <text x="232" y="322" font-family="system-ui" font-size="11" font-weight="500" fill="#2563eb">10:30</text>
+  <text x="286" y="322" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Robert Kim</text>
+  <rect x="460" y="312" width="60" height="18" fill="#dcfce7" rx="20"/>
+  <text x="470" y="325" font-family="system-ui" font-size="9" font-weight="500" fill="#22c55e">New</text>
+  <rect x="232" y="332" width="332" height="1" fill="#e2e8f0"/>
+  <text x="232" y="348" font-family="system-ui" font-size="11" font-weight="400" fill="#94a3b8">11:00</text>
+  <text x="286" y="348" font-family="system-ui" font-size="12" font-weight="400" fill="#94a3b8">Blocked — Staff Meeting</text>
+
+  <!-- Patient vitals widget -->
+  <rect x="596" y="160" width="188" height="200" fill="#f8fafc" rx="10" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="612" y="184" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">Recent Vitals</text>
+  <!-- Vitals mini cards -->
+  <rect x="612" y="196" width="156" height="40" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="620" y="214" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">BP</text>
+  <text x="700" y="214" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">128/82</text>
+  <text x="740" y="214" font-family="system-ui" font-size="9" font-weight="400" fill="#22c55e">Normal</text>
+
+  <rect x="612" y="242" width="156" height="40" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="620" y="260" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">HR</text>
+  <text x="700" y="260" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">72</text>
+  <text x="740" y="260" font-family="system-ui" font-size="9" font-weight="400" fill="#22c55e">Normal</text>
+
+  <rect x="612" y="288" width="156" height="40" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="620" y="306" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">O2 Sat</text>
+  <text x="700" y="306" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">98%</text>
+  <text x="740" y="306" font-family="system-ui" font-size="9" font-weight="400" fill="#22c55e">Normal</text>
+
+  <!-- Bottom: Patient activity -->
+  <rect x="216" y="376" width="568" height="100" fill="#f8fafc" rx="10" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="232" y="400" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">Patient Activity (Last 7 Days)</text>
+  <!-- Mini bar chart -->
+  <rect x="232" y="414" width="28" height="40" fill="#2563eb" rx="3" opacity="0.6"/>
+  <rect x="268" y="426" width="28" height="28" fill="#2563eb" rx="3" opacity="0.4"/>
+  <rect x="304" y="408" width="28" height="46" fill="#2563eb" rx="3" opacity="0.7"/>
+  <rect x="340" y="418" width="28" height="36" fill="#2563eb" rx="3" opacity="0.5"/>
+  <rect x="376" y="404" width="28" height="50" fill="#2563eb" rx="3" opacity="0.8"/>
+  <rect x="412" y="410" width="28" height="44" fill="#2563eb" rx="3" opacity="0.6"/>
+  <rect x="448" y="402" width="28" height="52" fill="#2563eb" rx="3" opacity="0.9"/>
+  <!-- Day labels -->
+  <text x="236" y="466" font-family="system-ui" font-size="9" font-weight="400" fill="#94a3b8">Mon</text>
+  <text x="272" y="466" font-family="system-ui" font-size="9" font-weight="400" fill="#94a3b8">Tue</text>
+  <text x="308" y="466" font-family="system-ui" font-size="9" font-weight="400" fill="#94a3b8">Wed</text>
+  <text x="344" y="466" font-family="system-ui" font-size="9" font-weight="400" fill="#94a3b8">Thu</text>
+  <text x="380" y="466" font-family="system-ui" font-size="9" font-weight="400" fill="#94a3b8">Fri</text>
+  <text x="416" y="466" font-family="system-ui" font-size="9" font-weight="400" fill="#94a3b8">Sat</text>
+  <text x="452" y="466" font-family="system-ui" font-size="9" font-weight="400" fill="#94a3b8">Sun</text>
+</svg>

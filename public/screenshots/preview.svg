@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#ffffff" rx="8"/>
+  <!-- Hero section -->
+  <rect x="0" y="0" width="800" height="500" fill="url(#heroGrad)" rx="0"/>
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eff6ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Header bar -->
+  <rect x="40" y="20" width="720" height="48" fill="#ffffff" rx="24" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="60" y="32" width="28" height="24" fill="#2563eb" rx="6" opacity="0.15"/>
+  <text x="65" y="49" font-family="system-ui" font-size="13" font-weight="800" fill="#2563eb" letter-spacing="-0.5">M</text>
+  <text x="96" y="49" font-family="system-ui" font-size="13" font-weight="700" fill="#1e293b" letter-spacing="-0.3">MEDICA</text>
+  <text x="250" y="49" font-family="system-ui" font-size="12" font-weight="400" fill="#64748b">Patients</text>
+  <text x="320" y="49" font-family="system-ui" font-size="12" font-weight="400" fill="#64748b">Appointments</text>
+  <text x="420" y="49" font-family="system-ui" font-size="12" font-weight="400" fill="#64748b">Telemedicine</text>
+  <text x="520" y="49" font-family="system-ui" font-size="12" font-weight="400" fill="#64748b">Records</text>
+  <rect x="620" y="30" width="120" height="28" fill="#2563eb" rx="14"/>
+  <text x="648" y="49" font-family="system-ui" font-size="11" font-weight="600" fill="#ffffff">Dashboard</text>
+
+  <!-- Hero content -->
+  <text x="60" y="140" font-family="system-ui" font-size="36" font-weight="800" fill="#0f172a" letter-spacing="-1">Enterprise Healthcare</text>
+  <text x="60" y="182" font-family="system-ui" font-size="36" font-weight="800" fill="#2563eb" letter-spacing="-1">Platform</text>
+  <text x="60" y="220" font-family="system-ui" font-size="14" font-weight="400" fill="#64748b" line-height="1.6">Patient management, appointment scheduling, telemedicine,</text>
+  <text x="60" y="242" font-family="system-ui" font-size="14" font-weight="400" fill="#64748b" line-height="1.6">electronic health records, and secure messaging — HIPAA-compliant.</text>
+
+  <!-- CTA buttons -->
+  <rect x="60" y="270" width="160" height="44" fill="#2563eb" rx="22"/>
+  <text x="96" y="296" font-family="system-ui" font-size="13" font-weight="600" fill="#ffffff">Get Started</text>
+  <rect x="236" y="270" width="160" height="44" fill="#ffffff" rx="22" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="272" y="296" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">View Demo</text>
+
+  <!-- Feature cards -->
+  <rect x="60" y="340" width="160" height="110" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="76" y="356" width="36" height="36" fill="#dbeafe" rx="10"/>
+  <rect x="84" y="364" width="20" height="20" fill="#2563eb" rx="4" opacity="0.7"/>
+  <text x="76" y="412" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">Patient 360°</text>
+  <text x="76" y="430" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">Complete clinical view</text>
+
+  <rect x="236" y="340" width="160" height="110" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="252" y="356" width="36" height="36" fill="#dbeafe" rx="10"/>
+  <rect x="260" y="364" width="20" height="20" fill="#2563eb" rx="4" opacity="0.7"/>
+  <text x="252" y="412" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">Telemedicine</text>
+  <text x="252" y="430" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">Virtual care sessions</text>
+
+  <rect x="412" y="340" width="160" height="110" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="428" y="356" width="36" height="36" fill="#dbeafe" rx="10"/>
+  <rect x="436" y="364" width="20" height="20" fill="#2563eb" rx="4" opacity="0.7"/>
+  <text x="428" y="412" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">EHR Records</text>
+  <text x="428" y="430" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">Structured SOAP notes</text>
+
+  <rect x="588" y="340" width="160" height="110" fill="#ffffff" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="604" y="356" width="36" height="36" fill="#dbeafe" rx="10"/>
+  <rect x="612" y="364" width="20" height="20" fill="#2563eb" rx="4" opacity="0.7"/>
+  <text x="604" y="412" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">Secure Messaging</text>
+  <text x="604" y="430" font-family="system-ui" font-size="10" font-weight="400" fill="#64748b">HIPAA-compliant chat</text>
+
+  <!-- Security badge at bottom -->
+  <rect x="280" y="468" width="240" height="24" fill="#dcfce7" rx="12"/>
+  <circle cx="298" cy="480" r="4" fill="#22c55e"/>
+  <text x="308" y="484" font-family="system-ui" font-size="10" font-weight="500" fill="#22c55e">HIPAA Compliant · SOC 2 · HITRUST</text>
+
+  <!-- Blue dot decoration -->
+  <circle cx="720" cy="100" r="80" fill="#2563eb" opacity="0.03"/>
+  <circle cx="740" cy="120" r="50" fill="#2563eb" opacity="0.04"/>
+  <circle cx="680" cy="200" r="40" fill="#2563eb" opacity="0.03"/>
+</svg>

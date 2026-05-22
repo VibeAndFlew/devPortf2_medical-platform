@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#ffffff" rx="8"/>
+  <!-- Phone frame -->
+  <rect x="100" y="20" width="200" height="460" fill="#f8fafc" rx="32" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Phone notch -->
+  <rect x="160" y="32" width="80" height="20" fill="#1e293b" rx="10"/>
+  <!-- Phone top bar -->
+  <rect x="100" y="52" width="200" height="40" fill="#2563eb" rx="0"/>
+  <text x="120" y="76" font-family="system-ui" font-size="12" font-weight="600" fill="#ffffff">9:41</text>
+  <rect x="260" y="64" width="12" height="14" fill="#ffffff" rx="2" opacity="0.8"/>
+  <rect x="246" y="64" width="12" height="14" fill="#ffffff" rx="2" opacity="0.6"/>
+  <!-- Bottom nav -->
+  <rect x="100" y="440" width="200" height="40" fill="#ffffff" rx="0" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="120" y="464" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Home</text>
+  <text x="180" y="464" font-family="system-ui" font-size="9" font-weight="500" fill="#64748b">Patients</text>
+  <text x="240" y="464" font-family="system-ui" font-size="9" font-weight="500" fill="#64748b">More</text>
+
+  <!-- Welcome -->
+  <text x="120" y="116" font-family="system-ui" font-size="14" font-weight="700" fill="#1e293b">Welcome back,</text>
+  <text x="120" y="134" font-family="system-ui" font-size="14" font-weight="700" fill="#2563eb">Dr. Chen</text>
+
+  <!-- Stats mini cards -->
+  <rect x="116" y="148" width="82" height="50" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="124" y="165" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Today</text>
+  <text x="124" y="186" font-family="system-ui" font-size="16" font-weight="700" fill="#1e293b">6</text>
+  <text x="146" y="186" font-family="system-ui" font-size="8" font-weight="400" fill="#94a3b8">appts</text>
+
+  <rect x="204" y="148" width="82" height="50" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="212" y="165" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Pending</text>
+  <text x="212" y="186" font-family="system-ui" font-size="16" font-weight="700" fill="#1e293b">3</text>
+  <text x="234" y="186" font-family="system-ui" font-size="8" font-weight="400" fill="#94a3b8">msgs</text>
+
+  <!-- Next appointment -->
+  <rect x="116" y="210" width="168" height="60" fill="#dbeafe" rx="10"/>
+  <text x="128" y="228" font-family="system-ui" font-size="10" font-weight="600" fill="#2563eb">Next: 09:00 AM</text>
+  <text x="128" y="244" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">Emily Rodriguez</text>
+  <text x="128" y="258" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Annual Check-up · Room 204</text>
+
+  <!-- Quick actions row -->
+  <text x="120" y="296" font-family="system-ui" font-size="11" font-weight="600" fill="#1e293b">Quick Actions</text>
+  <rect x="116" y="306" width="56" height="44" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="132" y="312" width="24" height="24" fill="#dbeafe" rx="6"/>
+  <text x="124" y="344" font-family="system-ui" font-size="8" font-weight="400" fill="#64748b" text-anchor="middle">New Patient</text>
+
+  <rect x="178" y="306" width="56" height="44" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="194" y="312" width="24" height="24" fill="#dbeafe" rx="6"/>
+  <text x="186" y="344" font-family="system-ui" font-size="8" font-weight="400" fill="#64748b" text-anchor="middle">Schedule</text>
+
+  <rect x="240" y="306" width="56" height="44" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="256" y="312" width="24" height="24" fill="#dbeafe" rx="6"/>
+  <text x="248" y="344" font-family="system-ui" font-size="8" font-weight="400" fill="#64748b" text-anchor="middle">Telemed</text>
+
+  <!-- Recent patients -->
+  <text x="120" y="372" font-family="system-ui" font-size="11" font-weight="600" fill="#1e293b">Recent Patients</text>
+  <rect x="116" y="380" width="168" height="36" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="134" cy="398" r="10" fill="#dbeafe"/>
+  <text x="130" y="402" font-family="system-ui" font-size="8" font-weight="600" fill="#2563eb">JM</text>
+  <text x="150" y="396" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">James Mitchell</text>
+  <text x="150" y="408" font-family="system-ui" font-size="8" font-weight="400" fill="#64748b">Telemed · 09:30</text>
+
+  <rect x="116" y="420" width="168" height="36" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="134" cy="438" r="10" fill="#fef3c7"/>
+  <text x="130" y="442" font-family="system-ui" font-size="8" font-weight="600" fill="#f59e0b">MG</text>
+  <text x="150" y="436" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">Maria Gonzalez</text>
+  <text x="150" y="448" font-family="system-ui" font-size="8" font-weight="400" fill="#64748b">Follow-up · 10:00</text>
+</svg>

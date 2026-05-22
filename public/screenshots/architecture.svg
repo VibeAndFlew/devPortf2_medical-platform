@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#ffffff" rx="8"/>
+  <defs>
+    <linearGradient id="archGrad1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2563eb" stop-opacity="0.08"/><stop offset="100%" stop-color="#2563eb" stop-opacity="0.02"/></linearGradient>
+    <linearGradient id="archGrad2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#059669" stop-opacity="0.08"/><stop offset="100%" stop-color="#059669" stop-opacity="0.02"/></linearGradient>
+    <linearGradient id="archGrad3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2563eb" stop-opacity="0.05"/><stop offset="100%" stop-color="#2563eb" stop-opacity="0.01"/></linearGradient>
+  </defs>
+  <!-- Title -->
+  <text x="24" y="32" font-family="system-ui" font-size="16" font-weight="700" fill="#1e293b">System Architecture</text>
+  <text x="24" y="52" font-family="system-ui" font-size="11" font-weight="400" fill="#64748b">Layered — HIPAA-compliant — Horizontally scalable</text>
+
+  <!-- CLIENT LAYER -->
+  <rect x="24" y="68" width="752" height="56" fill="url(#archGrad1)" rx="8" stroke="#2563eb" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="36" y="86" font-family="system-ui" font-size="10" font-weight="700" fill="#2563eb" letter-spacing="1">CLIENT LAYER</text>
+  <rect x="36" y="96" width="130" height="20" fill="#ffffff" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="44" y="110" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">Next.js Web App</text>
+  <rect x="176" y="96" width="100" height="20" fill="#ffffff" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="184" y="110" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">Mobile (PWA)</text>
+  <rect x="286" y="96" width="120" height="20" fill="#ffffff" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="294" y="110" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">FHIR / HL7 APIs</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="124" x2="400" y2="140" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="396,138 400,146 404,138" fill="#94a3b8"/>
+
+  <!-- EDGE LAYER -->
+  <rect x="24" y="144" width="752" height="56" fill="url(#archGrad2)" rx="8" stroke="#059669" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="36" y="162" font-family="system-ui" font-size="10" font-weight="700" fill="#059669" letter-spacing="1">EDGE LAYER (Vercel Edge Network)</text>
+  <rect x="36" y="172" width="120" height="20" fill="#ffffff" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="44" y="186" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">Auth Middleware</text>
+  <rect x="166" y="172" width="120" height="20" fill="#ffffff" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="174" y="186" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">Rate Limiting</text>
+  <rect x="296" y="172" width="120" height="20" fill="#ffffff" rx="4" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="304" y="186" font-family="system-ui" font-size="10" font-weight="500" fill="#1e293b">Geo-Routing / CDN</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="200" x2="400" y2="216" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="396,214 400,222 404,214" fill="#94a3b8"/>
+
+  <!-- APPLICATION LAYER -->
+  <rect x="24" y="220" width="752" height="112" fill="url(#archGrad3)" rx="8" stroke="#2563eb" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="36" y="238" font-family="system-ui" font-size="10" font-weight="700" fill="#2563eb" letter-spacing="1">APPLICATION LAYER (Next.js API / Server Components)</text>
+  <!-- Service boxes -->
+  <rect x="36" y="248" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="44" y="264" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Patient Service</text>
+  <rect x="154" y="248" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="162" y="264" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Appt. Service</text>
+  <rect x="272" y="248" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="280" y="264" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Telemed. Service</text>
+  <rect x="390" y="248" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="398" y="264" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">EHR Service</text>
+  <rect x="508" y="248" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="516" y="264" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Rx Service</text>
+  <rect x="626" y="248" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="634" y="264" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Analytics</text>
+
+  <!-- Second row -->
+  <rect x="36" y="280" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="44" y="296" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Messaging</text>
+  <rect x="154" y="280" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="162" y="296" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Audit Service</text>
+  <rect x="272" y="280" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="280" y="296" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Notification</text>
+  <rect x="390" y="280" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="398" y="296" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Auth Service</text>
+  <rect x="508" y="280" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="516" y="296" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">Encryption</text>
+  <rect x="626" y="280" width="108" height="24" fill="#dbeafe" rx="4"/>
+  <text x="634" y="296" font-family="system-ui" font-size="9" font-weight="500" fill="#2563eb">BFF Gateway</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="332" x2="400" y2="348" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="396,346 400,354 404,346" fill="#94a3b8"/>
+
+  <!-- DATA LAYER -->
+  <rect x="24" y="356" width="752" height="120" fill="url(#archGrad1)" rx="8" stroke="#2563eb" stroke-width="1" stroke-opacity="0.2"/>
+  <text x="36" y="374" font-family="system-ui" font-size="10" font-weight="700" fill="#2563eb" letter-spacing="1">DATA LAYER</text>
+
+  <!-- Database boxes -->
+  <rect x="36" y="384" width="170" height="82" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="44" y="402" font-family="system-ui" font-size="11" font-weight="600" fill="#1e293b">PostgreSQL</text>
+  <text x="44" y="418" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Patient Data, Clinical Records</text>
+  <text x="44" y="434" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Audit Logs, FHIR Resources</text>
+  <text x="44" y="450" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Encrypted PHI at rest</text>
+
+  <rect x="216" y="384" width="170" height="82" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="224" y="402" font-family="system-ui" font-size="11" font-weight="600" fill="#1e293b">Redis</text>
+  <text x="224" y="418" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Session Store</text>
+  <text x="224" y="434" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Cache Layer</text>
+  <text x="224" y="450" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Rate Limiting / Pub-Sub</text>
+
+  <rect x="396" y="384" width="170" height="82" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="404" y="402" font-family="system-ui" font-size="11" font-weight="600" fill="#1e293b">Object Storage</text>
+  <text x="404" y="418" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">PHI Documents</text>
+  <text x="404" y="434" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Medical Images / DICOM</text>
+  <text x="404" y="450" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Encrypted S3 / R2</text>
+
+  <rect x="576" y="384" width="158" height="82" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="584" y="402" font-family="system-ui" font-size="11" font-weight="600" fill="#1e293b">Elasticsearch</text>
+  <text x="584" y="418" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Full-text Search</text>
+  <text x="584" y="434" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Clinical Records</text>
+  <text x="584" y="450" font-family="system-ui" font-size="9" font-weight="400" fill="#64748b">Observability Logs</text>
+
+  <!-- Security badge -->
+  <rect x="600" y="16" width="176" height="28" fill="#dcfce7" rx="20"/>
+  <circle cx="620" cy="30" r="5" fill="#22c55e"/>
+  <text x="632" y="34" font-family="system-ui" font-size="10" font-weight="600" fill="#22c55e">HIPAA Compliant</text>
+</svg>
